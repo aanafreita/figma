@@ -46,8 +46,12 @@ body {
    border-top:none;
    display: block;
 }
+.botoes {
+   display: block;
+}
+
 @media screen and (min-width:768px) {
-   .botoes {
+   .botoes{
       display: flex;
    }
 }
@@ -56,5 +60,9 @@ body {
 }
 .botao:last-child{
    border-radius:0 40px 0 0;
+}
+.ativo{
+   background: var(--botao-ativo);
+   border-bottom: 4px solid var(--verde);
 }
 
